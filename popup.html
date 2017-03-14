@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+  </head>
+  <link rel="stylesheet" href="style.css">
+
+  <body>
+    <input type="text" id="adress" value="" placeholder="Search">
+    <button class="view">Show Advanced View</button>
+    <div class="latlng">
+      <input type="text" id="lat" value="" placeholder="LAT">
+      <input type="text" id="lng" value="" placeholder="LNG">
+    </div>
+    <div id="map"></div>
+  </body>
+</html>
+<script src="jquery.js" charset="utf-8"></script>
+<script src="popup.js" charset="utf-8"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-GLZ5bluKHMDf6_UVEPmSkn3Y_djTLho&libraries=places&callback=initAutocomplete" async defer></script>

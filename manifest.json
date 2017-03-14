@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "GMS",
+  "description": "Google maps search",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon-map.png",
+    "default_popup": "popup.html",
+    "default_title": "Click here!"
+  },
+  "permissions": [
+    "activeTab",
+    "https://maps.google.com/*",
+    "https://maps.googleapis.com/*"
+  ],
+  "content_security_policy": "script-src 'self' https://maps.googleapis.com https://maps.gstatic.com; object-src 'self'"
+}

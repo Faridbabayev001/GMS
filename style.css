@@ -1,0 +1,25 @@
+*{
+  margin: 0px;
+}
+#map{
+  width: 500px;
+  height: 500px;
+}
+#adress{
+  width: 496px;
+  height: 30px;
+}
+.view{
+  float: right;
+  cursor: pointer;
+  height: 36px;
+}
+#lat{
+  height: 30px;
+}
+#lng{
+  height: 30px;
+}
+.latlng{
+  display: none;
+}
